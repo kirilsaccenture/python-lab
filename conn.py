@@ -11,6 +11,6 @@ class DatabaseConnection:
         print(f"Username is {self.username} & password is {self.password} & hostname is {self.hostname} & port is {self.port}")
   
 
-conn = ConnectionDatabase(443, "localhost", "db_user", "db_pass_123#$")
+conn = DatabaseConnection(443, "localhost", "db_user", "db_pass_123#$")
 
 conn.show_connection_params()
